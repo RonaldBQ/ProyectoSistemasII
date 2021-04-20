@@ -18,7 +18,7 @@ public class FrmOrdenServicio extends javax.swing.JInternalFrame {
         initComponents();
         ConstTablaOS();
         inhabilitar();
-        muestra("");
+        muestraClientes("");
         txtBuscar.requestFocus();
     }
 
@@ -84,7 +84,7 @@ public class FrmOrdenServicio extends javax.swing.JInternalFrame {
 
     }
     
-    public void muestra(String buscar) {
+    public void muestraClientes(String buscar) {
         try {
             DefaultTableModel modelo;
             Fusuarios func = new Fusuarios();
